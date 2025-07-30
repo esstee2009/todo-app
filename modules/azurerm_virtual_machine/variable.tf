@@ -1,0 +1,17 @@
+variable "resource_group_name"{}
+variable "location"{}
+variable "vm_name"{}
+variable "vm_size"{}
+variable "admin_username"{}
+variable "image_publisher"{}
+variable "image_offer"{}
+variable "image_sku"{}
+variable "image_version"{}
+variable "name_nic"{}
+variable "frontend_ip_name"{}
+variable "virtual_network_name"{}
+variable "frontend_subnet"{}
+variable "key_vault_name"{}
+variable "username_secret_name"{}
+variable "password_secret_name"{}
+variable "name_securitygroup"{}
