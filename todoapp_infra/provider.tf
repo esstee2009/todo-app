@@ -8,7 +8,7 @@ terraform {
 terraform {
   backend "azurerm" {
     resource_group_name  = "tf-rg24-infra"
-    storage_account_name = "tf-st24-infra"
+    storage_account_name = "tfst24infra"
     container_name       = "infra-container"
     key                  = "infra24"
   }
