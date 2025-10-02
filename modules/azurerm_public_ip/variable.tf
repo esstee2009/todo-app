@@ -15,3 +15,8 @@ variable "frontend_ip_name" {
     type        = string
     default     = "Static"
   }
+   variable "sku" {
+     type = string
+   }
+   variable "tags" {
+   }
