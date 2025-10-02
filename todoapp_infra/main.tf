@@ -41,6 +41,8 @@ module "frontend_pip" {
   frontend_ip_name    = "pip_frontend"
   location            = "uk south"
   allocation_method   = "Static"
+  sku                 = "Basic"
+  tags                = "local.common_tags"
 }
 
 module "nsg" {
