@@ -5,7 +5,6 @@ terraform {
       version = "4.34.0"
     }
   }
-terraform {
   backend "azurerm" {
     resource_group_name  = "tf-rg24-infra"
     storage_account_name = "tfst24infra"
@@ -13,8 +12,6 @@ terraform {
     key                  = "infra24"
   }
  }
-}
-
 provider "azurerm" {
     features {}
     subscription_id = "7f243234-0218-497f-9999-f87959687237"
